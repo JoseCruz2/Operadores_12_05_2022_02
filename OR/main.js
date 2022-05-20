@@ -6,6 +6,6 @@ document.querySelector("#operadorAND").insertAdjacentHTML("beforeend", `
     <tr class="resultado">
         <td>${A}</td>
         <td>${B}</td>
-        <td>${A && B}</td>
+        <td>${A || B}</td>
     </tr>
 `);
